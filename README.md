@@ -7,4 +7,11 @@
 ### Tailwind Css for Django & Hot Reload Doc :
 * https://django-tailwind.readthedocs.io/en/latest/installation.html
 
-/////////////////////////////////////////////// this project is not complete yet //////////////////////////////////////////////////
+### install lib in python
+* uv pip freeze
+* python -m pip freeze > requirements.txt
+- - - - 
+* uv pip install -r requirements.txt *(if you install lib only)
+
+
+//////////////////////// this project is not complete yet //////////////////////
