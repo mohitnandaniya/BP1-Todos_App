@@ -1,4 +1,4 @@
-# P1-Todos_App
+# BasicProject1-Todos_App
 
 ## What is use in This Project :
 * Django
