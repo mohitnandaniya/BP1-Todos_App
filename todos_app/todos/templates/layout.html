@@ -1,0 +1,30 @@
+{% load static tailwind_tags %}
+{% tailwind_css %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TODOS APP</title>
+</head>
+
+<body class="bg-slate-900">
+    <!-- navbar -->
+    <header class="text-gray-600 body-font backdrop-blur-xl bg-cyan-100/30 ">
+        <div class="container mx-auto flex flex-wrap p-2 flex-col md:flex-row items-center ">
+            <span class="flex title-font font-medium items-center text-2xl text-blue-500 mb-4 md:mb-0">
+                T<span class="text-rose-500">O</span><span class="text-blue-500">D</span><span
+                    class="text-rose-500">O</span>
+            </span>
+            <form method="GET" action="" class="md:ml-auto mb-0 flex flex-wrap items-center text-base justify-center">
+                <input type="text" name="q" placeholder="Search..."
+                    class="border-none p-1 rounded-md mx-3 backdrop-blur-xl bg-blue-100/30 text-gray-100">
+                <button class="bg-indigo-900 text-white px-4 py-1 rounded-md">Search</button>
+            </form>
+        </div>
+    </header>
+    
+</body>
+
+</html>
